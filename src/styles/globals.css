@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Elice Digital Baeum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Elice Digital Baeum'),
+    url(/fonts/EliceDigitalBaeumOTF_Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Elice Digital Baeum';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Elice Digital Baeum'),
+    url(/fonts/EliceDigitalBaeumOTF_Bold.otf) format('opentype');
+}
+
+@layer base {
+  html,
+  body {
+    font-family: 'Elice Digital Baeum', sans-serif;
+  }
+}
