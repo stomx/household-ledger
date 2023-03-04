@@ -2,7 +2,7 @@ import LimitWidthContainer from '@/components/layouts/partials/container';
 import Link from 'next/link';
 const Header = () => {
   return (
-    <header className='flex justify-center w-full bg-gray-300'>
+    <header className='flex justify-center w-full bg-indigo-200'>
       <LimitWidthContainer className='flex items-center justify-between h-12 gap-3 flex-nowrap'>
         <div className='flex gap-3 links'>
           <Link href='/' prefetch>
